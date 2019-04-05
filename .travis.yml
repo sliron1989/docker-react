@@ -14,7 +14,7 @@ deploy:
   app: "docker-react"
   env: "DockerReact-env"
   bucket_name: "elasticbeanstalk-us-east-2-485107509892"
-  endpoint: "s3.us-east-2.amazonaws.com"
+  endpoint: "s3-website-us-east-2.amazonaws.com"
   bucket_path: "docker-react"
   on:
     branch: master
